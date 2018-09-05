@@ -3,7 +3,16 @@ public
 class 
 Lincoln 
 {
-
+	
+	private
+	static
+	final 
+	char 
+	yooooooooooooooo
+	= 
+	'A'
+	;
+	
 	public 
 	static 
 	void 
@@ -21,7 +30,7 @@ Lincoln
 		out.
 		println
 		(
-				"A quote by Abraham Lincoln:"
+				yooooooooooooooo + "quote by Abraham Lincoln:"
 				)
 		;
 
