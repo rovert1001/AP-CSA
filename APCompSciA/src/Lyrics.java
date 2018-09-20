@@ -8,14 +8,16 @@
  * @contact 1002089@palisadessd.org
  */
 
-public class Lyrics {
+public class Lyrics 
+{
 	
 	/**
 	  * main method - Outputs some of the authors favorite lyrics.
 	  * @param args
 	  */
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		System.out.println("Shadilay - Manuele Pepe");
 		System.out.println("");

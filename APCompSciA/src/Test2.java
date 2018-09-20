@@ -19,17 +19,19 @@
  * @contact 1002089@palisadessd.org
  */
 
-/*public class Test2 {
+public class Test2 
+{
 	
-	*//**
+	/**
 	  * main method - Puts out the text, "An Emergency Broadcast" to the console
 	  * @param args
-	  *//*
+	  */
 
-	public static void man(String[] args) {
+	public static void man(String[] args) 
+	{
 		
 		System.out.println("An Emergency Broadcast");
 
 	}
 
-}*/
+}

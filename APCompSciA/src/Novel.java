@@ -8,14 +8,16 @@
  * @contact 1002089@palisadessd.org
  */
 
-public class Novel {
+public class Novel 
+{
 	
 	/**
 	  * main method - Outputs an excerpt form one of the authors favorite texts.
 	  * @param args
 	  */
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		System.out.println("The bourgeoisie has through its exploitation of the world market given a cosmopolitan character");
 		System.out.println("to production and consumption in every country. To the great chagrin of Reactionists, it has");

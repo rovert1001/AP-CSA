@@ -8,7 +8,8 @@
  * @contact 1002089@palisadessd.org
  */
 
-public class Info {
+public class Info 
+{
 	
 	private static final String NAME = "Name: Trevor Slabicki";
 	private static final String BIRTHDAY = "Birthday: 12-24-2000";
@@ -21,7 +22,8 @@ public class Info {
 	  * @param args
 	  */
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		System.out.println(NAME);
 		System.out.println(BIRTHDAY);

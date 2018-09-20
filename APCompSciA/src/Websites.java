@@ -8,14 +8,16 @@
  * @contact 1002089@palisadessd.org
  */
 
-public class Websites {
+public class Websites 
+{
 	
 	/**
 	  * main method - Outputs some of the authors favorite websites.
 	  * @param args
 	  */
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		System.out.println("These are a few of the authors favorite websites");
 		System.out.println("1). Dank Yee - http://dankmaymays.com/yee/");
