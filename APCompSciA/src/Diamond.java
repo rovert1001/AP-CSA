@@ -11,9 +11,9 @@
 public class Diamond {
 	
 	/**
-	  * main method - Simply prints out a pretty diamond made by the glorious author.
-	  * @param args
-	  */
+	 * main method - Simply prints out a pretty diamond made by the glorious author.
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		
