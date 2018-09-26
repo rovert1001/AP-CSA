@@ -6,16 +6,16 @@
  * and windows are in the room and outputs the result.
  * 
  * @author Trevor Slabicki
- * @version 9-26-2018
+ * @version 9-25-2018
  * @contact 1002089@palisadessd.org
  */
 
 public class Paint
 {
   // declaring constants
-  private static final int iCOVERAGE_PER_GALLON = 350;
-  private static final int iDOOR_SIZE = 20;
-  private static final int iWINDOW_SIZE = 15;
+  public static final int iCOVERAGE_PER_GALLON = 350;
+  public static final int iDOOR_SIZE = 20;
+  public static final int iWINDOW_SIZE = 15;
 
   // declares integers for dimensions of room in feet
   public static int iLength, iWidth, iHeight;
