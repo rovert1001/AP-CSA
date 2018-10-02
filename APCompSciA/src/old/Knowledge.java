@@ -1,12 +1,5 @@
-/**
- * Test.java
- *
- * Code Description: Outputs one or all of 3 versions to write the phrase "Knowledge is Power" based on user input using the scanner object.
- *    
- * @author Trevor Slabicki
- * @version 9-13-2018
- * @contact 1002089@palisadessd.org
- */
+package old;
+
 
 import java.util.Scanner;
 public class Knowledge 

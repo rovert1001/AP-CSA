@@ -1,5 +1,5 @@
 /**
- * TravelTimeV1.java
+ * SecondsV1.java
  *
  * Code Description: Initializes values representing a time duration in hours,
  * minutes, and seconds and then prints the equivalent total number of seconds.
