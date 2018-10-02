@@ -1,5 +1,5 @@
 /**
- * MileToKilometersV1.java
+ * MileToKilometersV2.java
  *
  * Code Description: Declares constant to convert miles to kilometers and
  * constant for number of miles. Then converts the value of miles into
@@ -10,7 +10,7 @@
  * @contact 1002089@palisadessd.org
  */
 
-public class MileToKilometersV1
+public class MileToKilometersV2
 {
 
   // Initializing constant for mile to Kilometer conversion

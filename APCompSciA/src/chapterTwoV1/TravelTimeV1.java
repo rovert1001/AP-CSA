@@ -1,3 +1,5 @@
+package chapterTwoV1;
+
 /**
  * TravelTimeV1.java
  *

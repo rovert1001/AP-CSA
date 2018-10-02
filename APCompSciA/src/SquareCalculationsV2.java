@@ -1,5 +1,5 @@
 /**
- * SquareCalculationsV1.java
+ * SquareCalculationsV2.java
  *
  * Code Description: Makes a length for the side of a square and calculates its
  * perimeter and area
@@ -12,7 +12,7 @@
 // Importing package to generate a random number
 import java.util.concurrent.*;
 
-public class SquareCalculationsV1
+public class SquareCalculationsV2
 {
 
   /*

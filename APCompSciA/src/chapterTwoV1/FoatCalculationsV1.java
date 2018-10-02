@@ -1,3 +1,5 @@
+package chapterTwoV1;
+
 /**
  * FloatCalculationsV1.java
  *
