@@ -1,39 +1,49 @@
+package chapterTwoV2;
+
+
 /**
  * MoneyConversionV2.java
  *
- * Code Description: Takes a monetary value and says the least number of bills
- * and coins it could be and outputs the result
+ * Code Description: Takes a monetary value given by the user and says the
+ * least number of bills and coins it could be and then outputs the result
  * 
  * @author Trevor Slabicki
  * @version 10-2-2018
  * @contact 1002089@palisadessd.org
  */
 
+import java.util.Scanner; // Importing Scanner class
+
 public class MoneyConversionV2
 {
 
-  // Defining constant for money amount to be divided to bills and coins
-  public static final double dMoney = 47.63;
+  // Initializing Scanner to define amount of money
+  private static Scanner kb = new Scanner(System.in);
 
-  /*
-   * Making redundant variable of dMoney so the value of dMoney can be changed
-   * for calculations, but without losing the value of dMoney
-   */
-  public static double dMoneyTwo = dMoney;
+  // Defining constant for money to be determined by user and a redundant double
+  private static double dMoney, dMoneyTwo;
 
   // Outlining bills and coins to be figured out
-  public static int iTens, iFives, iOnes;
-  public static int iQuarters, iDimes, iNickels, iPennies;
+  private static int iTens, iFives, iOnes;
+  private static int iQuarters, iDimes, iNickels, iPennies;
 
   /**
    * main method - Determines the least amount of bills and coins dMoney could
-   * be and outputs the result.
+   * be after dMoney is defined by the user and then outputs the result.
    * 
    * @param args
    */
 
   public static void main(String[] args)
   {
+
+    // Asks user for amount of money and stows the answer
+    System.out.println("What is the amount of money?");
+    System.out.println("$");
+    dMoney = kb.nextDouble();
+
+    // Making dMoneyTwo redundant variable of dMoney
+    dMoneyTwo = dMoney;
 
     /*
      * Determines amount of each bills and coins in dMoneyTwo starting with the
@@ -65,6 +75,8 @@ public class MoneyConversionV2
     System.out.println(iDimes + " dimes,");
     System.out.println(iNickels + " nickels, and");
     System.out.println(iPennies + " pennies.");
+
+    kb.close(); // closing the Scanner object
 
   }
 

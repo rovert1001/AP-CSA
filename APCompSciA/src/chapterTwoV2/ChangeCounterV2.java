@@ -1,13 +1,15 @@
+package chapterTwoV2;
+
 
 /**
  * ChangeCounterV2.java
  *
  * Code Description: Asks the user how many coins are in a jar and stows the
-   * answers. Then calculates the money in the jar based on the coins and
-   * outputs the result.
+ * answers. Then calculates the money in the jar based on the coins and
+ * outputs the result.
  * 
  * @author Trevor Slabicki
- * @version 10-2-2018
+ * @version 10-6-2018
  * @contact 1002089@palisadessd.org
  */
 
@@ -17,13 +19,13 @@ public class ChangeCounterV2
 {
 
   // Defining ints for coins in jar
-  public static int iQuarters, iDimes, iNickels, iPennies;
+  private static int iQuarters, iDimes, iNickels, iPennies;
 
   // Initializing double for value of coins in jar
-  public static double dJarValue;
+  private static double dJarValue;
 
   // Initializing scanner to read values of coins in jar
-  public static Scanner kb = new Scanner(System.in);
+  private static Scanner kb = new Scanner(System.in);
 
   /**
    * main method - Asks the user how many coins are in a jar and stows the
@@ -63,6 +65,8 @@ public class ChangeCounterV2
 
     // Outputs value of jar
     System.out.println("The jar would have a value of $" + dJarValue);
+
+    kb.close(); // closing the Scanner object
 
   }
 

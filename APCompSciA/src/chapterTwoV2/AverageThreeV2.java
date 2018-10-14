@@ -1,3 +1,5 @@
+package chapterTwoV2;
+
 
 /**
  * AverageThreeV2.java
@@ -7,7 +9,7 @@
  * three ints as a double and outputs the result.
  * 
  * @author Trevor Slabicki
- * @version 10-2-2018
+ * @version 10-6-2018
  * @contact 1002089@palisadessd.org
  */
 
@@ -20,11 +22,11 @@ public class AverageThreeV2
    * Initializing three integers to be determined by Scanner input and a double
    * that will contain their average
    */
-  public static int iIntOne, iIntTwo, iIntThree;
-  public static double dAverage;
+  private static int iIntOne, iIntTwo, iIntThree;
+  private static double dAverage;
 
   // Initializing Scanner
-  public static Scanner kb = new Scanner(System.in);
+  private static Scanner kb = new Scanner(System.in);
 
   /**
    * main method - Takes user input through the Scanner kb to give values to the
@@ -58,8 +60,7 @@ public class AverageThreeV2
     // Prints out the average of above three integers using the double dAverage
     System.out.println("The average of your three ints is: " + dAverage);
 
-    // closing Scanner kb
-    kb.close();
+    kb.close(); // closing the Scanner object
 
   }
 
