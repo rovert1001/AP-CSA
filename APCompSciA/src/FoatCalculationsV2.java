@@ -13,13 +13,16 @@ public class FoatCalculationsV2
 {
 
   // Initializing two doubles
-  public static double dDoubleOne, dDoubleTwo;
+  public static double dDoubleOne = 2.343;
+  public static double dDoubleTwo = 4.325;
 
-  // Making doubles for sum, difference, and product of two doubles
-  public static double dSum, dDifference, dProduct;
+  // Calculates sum, difference, and product of above doubles
+  public static double dSum = dDoubleOne + dDoubleTwo;
+  public static double dDifference = Math.abs(dDoubleOne - dDoubleTwo);
+  public static double dProduct = dDoubleOne * dDoubleTwo;
 
   /**
-   * main method - Prints out and calculates sum, difference, and product of the
+   * main method - Prints out the calculated sum, difference, and product of the
    * two doubles
    * 
    * @param args
@@ -27,11 +30,6 @@ public class FoatCalculationsV2
 
   public static void main(String[] args)
   {
-
-    // Calculates sum, difference, and product of above doubles
-    dSum = dDoubleOne + dDoubleTwo;
-    dDifference = Math.abs(dDoubleOne - dDoubleTwo);
-    dProduct = dDoubleOne * dDoubleTwo;
 
     // Outputs the sum, difference, and product of the two doubles
     System.out.println("For the numbers " + dDoubleOne + " and " + dDoubleTwo);
