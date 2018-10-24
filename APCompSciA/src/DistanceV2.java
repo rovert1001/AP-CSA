@@ -2,6 +2,7 @@
 /**
  * Distance.java
  *
+ *
  * Code Description: Computes the distance between two points
  *    
  * @author Trevor Slabicki
@@ -11,7 +12,7 @@
 
 import java.util.Scanner; //import Scanner class
 
-public class Distance
+public class DistanceV2
 {
 
   /**
