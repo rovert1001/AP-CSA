@@ -8,7 +8,7 @@
  * @contact 1002089@palisadessd.net
  */
 
-public class Temp
+public class TriangleArea
 {
 
   /**
