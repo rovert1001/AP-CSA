@@ -1,3 +1,4 @@
+package chapterThree;
 
 /**
  * UsernameGenerator.java
