@@ -35,7 +35,7 @@ public class CountDigits
 
   public static void checkInteger(int iNum)
   {
-
+    
     if (iNum == 0)
       iZero++;
     

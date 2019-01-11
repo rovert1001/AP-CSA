@@ -6,7 +6,7 @@
  * outputs some info about the amount of outputs of the statement
  * 
  * @author Trevor Slabicki
- * @version 12-17-2018
+ * @version 1-9-2019
  * @contact 1002089@palisadessd.net
  */
 
@@ -21,44 +21,54 @@ public class LoveCS
    * 
    * @param args
    */
-  
+
   public static void main(String[] args)
   {
-    
+
     // Scanner for number of repeats
     Scanner kb = new Scanner(System.in);
 
     // Number of repeats
     int iRepeats;
 
-    // Stores count the while loop is on
-    int iCount = 1;
-
     // Sum of iCount values
     int iSum = 0;
 
-    // Asks user to set number of repeats, and stows value
-    System.out.println("How many times do you want the statement to repeat?");
-    iRepeats = kb.nextInt();
-
-    // Outputs a statement for iRepeats times
-    while (iCount <= iRepeats)
+    // Repeats the code
+    while (true)
     {
-      // Outputs statement
-      System.out.println(iCount + " I love Computer Science!!");
 
-      // Adds this iCount iteration to the sum
-      iSum += iCount;
+      // Asks user to set number of repeats, and stows value
+      System.out.println("How many times do you want the statement to repeat?");
+      iRepeats = kb.nextInt();
 
-      // Increments iCount
-      iCount++;
+      // Outputs a statement for iRepeats times
+      for (int iI = 1; iI <= iRepeats; iI++)
+      {
+        // Outputs statement
+        System.out.println(iI + " I love Computer Science!!");
+
+        // Adds this iCount iteration to the sum
+        iSum += iI;
+
+      }
+
+      // Outputs information about number of repeats
+      System.out.println("Printed this message " + iRepeats + " times.");
+      System.out.print(
+          "The sum of the numbers from 1 to " + iRepeats + " is " + iSum);
+
+      // Necessary workaround for Scanner object going between certain methods
+      kb.nextLine();
+
+      // Asks user if they want to start again, loops if yes, breaks if no
+      System.out.println("");
+      System.out.println("Do you want to restart? [y/n]");
+      if (kb.nextLine().equalsIgnoreCase("n"))
+        break;
+
     }
 
-    // Outputs information about number of repeats
-    System.out.println("Printed this message " + iRepeats + " times.");
-    System.out
-        .print("The sum of the numbers from 1 to " + iRepeats + " is " + iSum);
-    
     kb.close(); // Closing the Scanner object
 
   }
