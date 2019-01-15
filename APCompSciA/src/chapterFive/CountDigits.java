@@ -1,3 +1,4 @@
+package chapterFive;
 import java.util.Scanner; // Importing Scanner class
 
 public class CountDigits
