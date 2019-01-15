@@ -14,7 +14,7 @@ public class CountingChar {
 	// An individual character in the string
 	private static char cChar;
 
-	// Scanner to read in strings
+	// Scanner to read in Strings
 	private static Scanner kb = new Scanner(System.in);
 
 	public static void main(String[] args) {
