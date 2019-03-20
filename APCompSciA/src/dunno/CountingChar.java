@@ -1,3 +1,4 @@
+package dunno;
 /**
  * CountingChar.java
  *

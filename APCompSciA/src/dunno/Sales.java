@@ -1,3 +1,4 @@
+package dunno;
 import java.util.Scanner;
 import java.math.BigInteger;
 public class Sales
