@@ -1,3 +1,4 @@
+package dunno;
 /**
  * MoneyTest.java
  *
@@ -11,7 +12,7 @@
 public class MoneyTest
 {
 
-  private static CashMoney[] cash = new CashMoney();
+  //private static CashMoney[] cash = new CashMoney();
   
   /**
    * main method -

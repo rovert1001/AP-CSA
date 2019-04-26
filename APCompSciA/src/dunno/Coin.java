@@ -1,3 +1,4 @@
+package dunno;
 /**
  * Coin.java
  *
