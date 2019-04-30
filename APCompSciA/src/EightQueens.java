@@ -1,3 +1,5 @@
+import java.awt.Point;
+
 /**
  * EightQueens.java
  *
@@ -22,7 +24,7 @@ public class EightQueens
     
     Queen one = new Queen();
     System.out.println(one.getX());
-
+    
   }
 
 }
