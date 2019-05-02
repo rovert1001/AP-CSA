@@ -30,9 +30,9 @@ public class Queen extends Point
   
   public boolean testOverlap(Queen testQueen) {
     
-    if (this.x == testQueen.x) return true;
-    if (this.y == testQueen.y) return true;
-    if (Math.abs(this.x - testQueen.x) == Math.abs(this.y - testQueen.y)) return true;
+    if (super.x == testQueen.x) return true;
+    if (super.y == testQueen.y) return true;
+    if (Math.abs(super.x - testQueen.x) == Math.abs(super.y - testQueen.y)) return true;
     
     return false;
     
@@ -41,8 +41,8 @@ public class Queen extends Point
   public void reset() {
     
     // this used for consistency
-    this.x = 0;
-    this.y = 0;
+    super.x = 0;
+    super.y = 0;
     this.isReal = false;
     
   }
